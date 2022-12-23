@@ -1,0 +1,68 @@
+#wrapper{
+  background: linear-gradient(#9e9d9d,#3b3b3b);
+  width:1150px;
+  outline:2px solid black;
+  padding:10px;
+  margin:0 auto;
+}
+
+#us {
+  float: left;
+  width: 140px;
+  background: linear-gradient(#14f10093,#54794a4d);
+  padding:5px;
+  margin-bottom: 15px;
+}
+
+#text {
+  padding:5px;
+  background: linear-gradient(#0000f14d,#794a4a4d);
+  margin-bottom: 15px;
+  width:780px;
+  margin-left: 165px;
+}
+
+#footer {
+  height:70px;
+  padding:5px;
+  background: linear-gradient(#37373a4d,#4d2f2f);
+  margin-bottom: 15px;
+}
+
+.clear{
+  clear:both;
+}
+
+body {
+	background: linear-gradient(#0000004d,#0000004d);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.form {
+	position: absolute;
+	top: 11%;
+	left: 77%;
+	transform: translate(-50%,-50%);
+	background: #000000b3;
+}
+
+.form h3 {
+	margin: 3px 6px;
+	padding: 0;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.input-form {
+	margin: 5px 4px;
+	text-align: center;
+}
+
+.input-form input[type="submit"]:hover {
+	background: #5b5991;
+}
